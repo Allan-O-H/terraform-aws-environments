@@ -1,5 +1,5 @@
 # ========================================
-# Terraform & Provider Configuration
+# Terraform & Provider Configuration for Dev Environment
 # ========================================
 # Configure required Terraform version and Azure provider (aws)
 terraform {
