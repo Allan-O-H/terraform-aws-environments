@@ -14,13 +14,13 @@ High level overview of the Terraform project:
 
     - One AWS account used for the project
     - Two seperate environments:
-        - **Development VPC**
-        - ** Production VPC**
+        - Development VPC
+        - Production VPC
     - Each Environment contains:
-        - **Public** and **Private** subnets
-        - An **INternet Gateway** for outbound/inbound internet access to public resources
-        - **NAT Gateway** to allow private resources to connect to the internet without being directly exposed
-        - One **EC2 instance** acting as the primary workload for the environment
+        - Public and Private subnets
+        - An INternet Gateway for outbound/inbound internet access to public resources
+        - NAT Gateway to allow private resources to connect to the internet without being directly exposed
+        - One EC2 instance acting as the primary workload for the environment
 
 ```text
 AWS Account
