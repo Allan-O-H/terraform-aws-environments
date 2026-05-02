@@ -1,6 +1,6 @@
-# ========================================
+# ======================================================
 # Terraform & Provider Configuration for Dev Environment
-# ========================================
+# ======================================================
 # Configure required Terraform version and Azure provider (aws)
 terraform {
   required_providers {
@@ -18,7 +18,7 @@ provider "aws" {
 # ========================================================
 # Networking - VPC, Subnets, NAT Gateway, Internet Gateway
 # ========================================================
-## DEV VPC 
+### DEV VPC 
 resource "aws_vpc" "dev_vpc" {
   cidr_block           = "10.0.0.0/16"
   instance_tenancy     = "default"
