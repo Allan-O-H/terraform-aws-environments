@@ -1,7 +1,7 @@
 # ========================================
 # Terraform & Provider Configuration for PROD Environment
 # ========================================
-# Configure required Terraform version and AWS provider 
+# Configure required Terraform version and AWS provider  
 terraform {
   required_providers {
     aws = {
